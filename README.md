@@ -8,10 +8,11 @@
 - values :
 
 ### Team Members:
-- <Abdelrahman_Ayman_Eldgwy>
-- <Abdlerhman_Ashraf_Kamal>
-- <Ahmed_Mahamed_Ail>
-- <Menna_Mohamed_Rady>
-- <Fatma_Khalifa_Abu-Alazaeim>
+- <Abdelrahman_Eldgwy>
+- <Abdlerhman_Ashraf>
+- <Ahmed_Ail>
+- <Abdelrahman_Helal>
+- <Menna_Mohamed>
+- <Fatma_Abu-Alazaeim>
 
 ### References:
