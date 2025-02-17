@@ -1,3 +1,3 @@
-class GPTAPI:
+class GPTAPIClient:
     def __init__(self):
         pass
