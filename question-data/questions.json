@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "text": "What is object-oriented programming?",
+    "related_kpis": ["technical_knowledge", "communication"]
+  },
+  {
+    "id": "2",
+    "text": "Explain the SOLID principles.",
+    "related_kpis": ["technical_knowledge", "problem_solving"]
+  }
+]
