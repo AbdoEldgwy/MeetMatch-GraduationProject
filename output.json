@@ -1,0 +1,17 @@
+[
+    {
+        "question_id": "Q1",
+        "evaluations": [
+            {
+                "kpi": "Technical Knowledge",
+                "score": 1,
+                "feedback": "The answer provided was incomplete; the candidate only mentioned the acronym SOLID without explaining the principles. They need to explain each principle to demonstrate understanding."
+            },
+            {
+                "kpi": "Communication",
+                "score": 1,
+                "feedback": "The communication was very limited. Only stating the acronym is not enough; the principles needed to be explained."
+            }
+        ]
+    }
+]

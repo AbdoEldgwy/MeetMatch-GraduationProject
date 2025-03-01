@@ -7,7 +7,6 @@ class CandidateAnswer:
         
         
     def get_answer(self):
-        # code to get the answer for the given question using the Speech to Text Api
         return {
             'question_id': self.question_id,
             'answer_text': self.answer_text,

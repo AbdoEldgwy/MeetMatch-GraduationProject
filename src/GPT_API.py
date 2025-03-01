@@ -2,7 +2,7 @@ from google import genai
 
 class GeminiClient:
     def __init__(self):
-        _api_key = "api_key"
+        _api_key = "AIzaSyA8OuUEDAj288fpywQjAv5Nq_aJSS0NNDo"
         self.model = "gemini-2.0-flash"
         self.client = genai.Client(api_key=_api_key)
 
@@ -15,7 +15,7 @@ class GeminiClient:
                 )
             if not response.text:
                 raise ValueError("Gemini API returned empty response")
-            if dump_json:
+            if dump_json==True:
                 return response.text,response.model_dump_json(
                         exclude_none=True, indent=4)
             return response.text
