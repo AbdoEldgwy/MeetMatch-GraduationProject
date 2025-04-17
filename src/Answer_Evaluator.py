@@ -6,7 +6,7 @@ import json
 class AnswerEvaluator:
     def __init__(self):
         self.model = GeminiClient()
-        self._eval_template = """you are a technical interviewer and evaluate the candidate's answer based on the following parameters:
+        self._eval_template = """you are a technical model answer and evaluate the my answer based on the following parameters:
 
 Question: {question_text}
 Answer: {answer_text}
@@ -15,7 +15,7 @@ Best Answer for best evaluation score: {best_answer_text}
 Key Performance Indicators need to measure (KPIs):
 {kpis}
 
-Provide scores (0-10) and very brief feedback for each KPI in KPIs list similarity,Output only the following JSON structure without any additional text or explanations:
+Provide scores (0-10) and very brief feedback for each KPI in KPIs list based on best_answer_text similarity, Output only the following JSON structure without any additional text or explanations:
 
 {{
     "question_id": "{question_id}",
@@ -35,7 +35,9 @@ Provide scores (0-10) and very brief feedback for each KPI in KPIs list similari
             "score": 0-10,
             "feedback": "constructive feedback here"
         }}
-    ]
+    ],
+    "Opinion": "constructive an exclamatory overall sentence here"
+    
 }}
 """
         
