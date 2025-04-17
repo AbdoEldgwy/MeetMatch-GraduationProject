@@ -6,11 +6,11 @@
 
 ----
 ### Team Members:
-- <Abdelrahman_Eldgwy>
-- <Abdlerhman_Ashraf>
-- <Ahmed_Ali>
-- <Abdelrahman_Helal>
-- <Menna_Mohamed>
-- <Fatma_Abu-Alazaeim>
+- Abdelrahman Eldgwy
+- Abdlerhman Ashraf
+- Ahmed Ali
+- Abdelrahman Helal
+- Menna Mohamed
+- Fatma Abu-Alazaeim
 
 ### References:
